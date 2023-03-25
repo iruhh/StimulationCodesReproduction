@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\terms\22fall\CG\hw6\贴图能看到了\05-ForestMirror.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>D:\terms\22fall\CG\hw6\贴图能看到了\HLSL\Light_GS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\terms\22fall\CG\hw6\贴图能看到了\HLSL\Light_PS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\terms\22fall\CG\hw6\贴图能看到了\HLSL\Light_VS.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

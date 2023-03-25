@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\terms\sophomore-2\Simulation\repos\布料落球模拟\05-ForestMirror.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>D:\terms\sophomore-2\Simulation\repos\布料落球模拟\HLSL\LinerGS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\terms\sophomore-2\Simulation\repos\布料落球模拟\HLSL\SphereSO_GS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\terms\sophomore-2\Simulation\repos\布料落球模拟\HLSL\SphereSO_VS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\terms\sophomore-2\Simulation\repos\布料落球模拟\HLSL\Light_PS.cso</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\terms\sophomore-2\Simulation\repos\布料落球模拟\HLSL\Light_VS.cso</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

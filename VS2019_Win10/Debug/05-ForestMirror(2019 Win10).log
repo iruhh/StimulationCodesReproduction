@@ -1,0 +1,8 @@
+﻿  GameApp.cpp
+D:\terms\22fall\CG\hw6\贴图能看到了\GameApp.cpp(231,105): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\terms\22fall\CG\hw6\贴图能看到了\GameApp.cpp(246,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\terms\22fall\CG\hw6\贴图能看到了\GameApp.cpp(247,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\terms\22fall\CG\hw6\贴图能看到了\GameApp.cpp(250,69): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\terms\22fall\CG\hw6\贴图能看到了\GameApp.cpp(250,58): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\terms\22fall\CG\hw6\贴图能看到了\GameApp.cpp(251,37): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  05-ForestMirror(2019 Win10).vcxproj -> D:\terms\22fall\CG\hw6\贴图能看到了\05-ForestMirror.exe
