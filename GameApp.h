@@ -75,6 +75,7 @@ private:
 	ComPtr<ID3D11GeometryShader> m_pGeometryShader;	// 几何着色器
 	ComPtr<ID3D11GeometryShader> m_pGeometryShader_line;	// 几何着色器
 	ComPtr<ID3D11PixelShader> m_pPixelShader;		// 像素着色器
+	ComPtr<ID3D11PixelShader> m_pPixelShaderCloth;		// 像素着色器
 	ComPtr<ID3D11VertexShader> m_pVertexShaderTex;	// 用于纹理的顶点着色器
 	ComPtr<ID3D11PixelShader> m_pPixelShaderTex;	// 用于纹理的像素着色器
 	ComPtr<ID3D11VertexShader> m_pSphereSOVS;	    // SO VS顶点着色器

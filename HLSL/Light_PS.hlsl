@@ -39,11 +39,11 @@ float4 PS(VertexOut pIn) : SV_Target
     diffuse += D;
     spec += S;
 
-    //float4 litColor = pIn.Color * (ambient + diffuse) + spec; //相对KeyAndBoard，对pIn.Color做了些处理才输出。
+    float4 litColor = pIn.Color * (ambient + diffuse) + spec; //相对KeyAndBoard，对pIn.Color做了些处理才输出。
 	
-    //litColor.a = g_Material.Diffuse.a * pIn.Color.a;
+    litColor.a = g_Material.Diffuse.a * pIn.Color.a;
 	
     //float4 litColor = { 0.7f, 0.7f, 1.0f, 1.0f };
-    float4 litColor = pIn.Color;
+    //float4 litColor = pIn.Color;
     return litColor;
 }

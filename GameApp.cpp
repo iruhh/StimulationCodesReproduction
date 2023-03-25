@@ -103,6 +103,7 @@ void GameApp::DrawScene()
 	// 绘制布料
     cloth->update_stimulatingvertices_POS();
 
+	m_pd3dImmediateContext->PSSetShader(m_pPixelShaderCloth.Get(), nullptr, 0);
 	m_pd3dImmediateContext->RSSetState(RenderStates::RSNoCull.Get());
 	ResetMeshWithStimulatingVertices();
 	m_pd3dImmediateContext->DrawIndexed(cloth->GetIndexCount(), 0, 0);
@@ -163,6 +164,10 @@ bool GameApp::InitEffect()
 	HR(CreateShaderFromFile(L"HLSL\\SphereSO_GS.cso", L"HLSL\\SphereSO_GS.hlsl", "GS", "gs_5_0", blob.ReleaseAndGetAddressOf()));
 	HR(m_pd3dDevice->CreateGeometryShaderWithStreamOutput(blob->GetBufferPointer(), blob->GetBufferSize(), posNormalColorLayout, ARRAYSIZE(posNormalColorLayout),
 		&stridePosNormalColor, 1, D3D11_SO_NO_RASTERIZED_STREAM, nullptr, m_pSphereSOGS.GetAddressOf()));
+
+	// 创建Cloth用的像素着色器
+	HR(CreateShaderFromFile(L"HLSL\\Cloth_PS.cso", L"HLSL\\Cloth_PS.hlsl", "PS", "ps_5_0", blob.ReleaseAndGetAddressOf()));
+	HR(m_pd3dDevice->CreatePixelShader(blob->GetBufferPointer(), blob->GetBufferSize(), nullptr, m_pPixelShaderCloth.GetAddressOf()));
 
 	return true;
 }
