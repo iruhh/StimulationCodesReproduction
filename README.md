@@ -7,4 +7,6 @@ WASD和按住鼠标左键拖动用于控制相机移动。
 
 效果如下图
 
+![布料落球2](https://user-images.githubusercontent.com/86449016/227729313-df17804d-37a5-42c7-96a1-97e41b8a50cf.gif)
+
 ![布料落球](https://user-images.githubusercontent.com/86449016/227725121-a1fe2a54-1035-47eb-83c4-109cad4af3c9.gif)
